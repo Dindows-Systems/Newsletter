@@ -1,0 +1,29 @@
+﻿.dg
+{
+	width:100%;
+		font-size: 11px;
+		margin-top:5px;
+}
+.dgheader
+{
+	background: gray;
+	border-bottom: #cccccc 1px solid;
+	color: #fff;
+	height: 26px;
+	text-align: center;
+}
+.dgitem
+{
+	background: #f0f0f0;
+	cursor: default;
+}
+.dgalt
+{
+	background: #f7f7f7;
+	cursor: default;
+}
+.dgHover
+{
+	background: #ff9966;
+	cursor: pointer;
+}

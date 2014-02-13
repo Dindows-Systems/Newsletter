@@ -1,0 +1,38 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register TagPrefix="uc1" TagName="menu" Src="Controls/menu.ascx" %>
+<%@ Register Src="Controls/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<script type="text/javascript">
+<!--
+function cleanwindow(theURL,winName,features) {
+	var newWin = window.open(theURL,winName,features);
+	newWin.focus();
+}
+// -->
+</script>
+    <title id="Title1" runat="server">i386.Newsletter</title>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <div id="header">
+                <uc1:menu ID="menutop" runat="server" />
+            </div>
+            <div id="breadcrumb">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" PathSeparator="&raquo; " />
+            </div>
+            <div id="content">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+            </div>
+            <div id="footer">
+                <uc2:footer ID="Footer1" runat="server" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

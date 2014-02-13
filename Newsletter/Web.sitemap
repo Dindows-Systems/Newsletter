@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="MainMenu.aspx" title="Main Menu"  description="">
+    <siteMapNode url="Newsletters/Default.aspx" title="Newsletters"  description="" >
+      <siteMapNode url="Newsletters/Edit.aspx" title="Edit"  description="" />
+      <siteMapNode url="Newsletters/Send.aspx" title="Send"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/Subscribers/default.aspx" title="Subscribers"  description="" >
+      <siteMapNode url="~/Subscribers/Batch.aspx" title="Batch Import/Export"/>
+      <siteMapNode url="~/Subscribers/Edit.aspx" title="Edit"/>
+      <siteMapNode url="~/Subscribers/Add.aspx" title="Add"/>
+    </siteMapNode>
+    <siteMapNode url="~/Admin/Users/Default.aspx" title="Users"  description="" >
+      <siteMapNode url="~/Admin/Users/Add.aspx" title="Add New User"  description="" />
+      <siteMapNode url="~/Admin/Users/Edit.aspx" title="Edit User"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/Lists/Default.aspx" title="Mailing Lists"  description="">
+      <siteMapNode url="~/Lists/Add.aspx" title="Add New Mailing List"  description="" />
+      <siteMapNode url="~/Lists/Edit.aspx" title="Edit Mailing List"  description="" />
+      <siteMapNode url="~/Lists/Formgenerator.aspx" title="Form Generator"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/Admin/Settings.aspx" title="Global Settings"  description="" />
+  </siteMapNode>
+</siteMap>

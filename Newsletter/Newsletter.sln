@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsletterLibrary", "Library\NewsletterLibrary\NewsletterLibrary.csproj", "{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "H:\...\Newsletter\", "Newsletter", "{3D766268-7A60-4FFA-8097-06B49AAA31DB}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		ProjectReferences = "{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}|NewsletterLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Newsletter"
+		Debug.AspNetCompiler.PhysicalPath = "Newsletter\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Newsletter\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Newsletter"
+		Release.AspNetCompiler.PhysicalPath = "Newsletter\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Newsletter\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "34761"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs07.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Library\\NewsletterLibrary\\NewsletterLibrary.csproj
+		SccProjectName1 = Library/NewsletterLibrary
+		SccLocalPath1 = Library\\NewsletterLibrary
+		SccWebProject2 = true
+		SccProjectUniqueName2 = Newsletter
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Newsletter\\
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{98FCFE84-AE5F-4843-B6E1-0C75FE47A6CC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Debug|.NET.Build.0 = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Release|.NET.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Release|.NET.Build.0 = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3D766268-7A60-4FFA-8097-06B49AAA31DB}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<script language="JavaScript">
+function i386formvalidate(what){var toreturn=true;
+if (what.email.value == '' || what.name.value == ''){
+alert('Please provide a valid e-mail and name address');toreturn=false;} 
+return(toreturn);} 
+function openWin(wName, wWidth, wHeight, wResize)
+ { features = 'scrollbars=1,status=1,resizable=' + ((wResize) ? 1 : 0) + ((wWidth) ? ',width=' + wWidth : '') + ((wHeight) ? ',height=' + wHeight : ''); popWin = window.open('', wName, features);if(popWin.focus) { popWin.focus(); }  return true;}
+</script>
+<form method="get" target="newWin" action="http://www.i386.com/newsletter/subscription.aspx"
+	onsubmit="openWin(this.target, 450, 320, true);" >
+	<table width="100%" border="0" cellspacing="0" cellpadding="3" ID="Table1">
+		<tr>
+			<td><strong>Newsletter</strong></td>
+		</tr>
+		<tr>
+			<td>Name:<br>
+				<input id="name" name="name" type="text" value="" size="20" maxlength="100"></td>
+		</tr>
+		<tr>
+			<td>E-mail:<br>
+				<input id="email" name="email" type="text" value="" size="20" maxlength="100"></td>
+		</tr>
+		<tr>
+			<td align="right"><input type="submit" value="Go!"></td>
+		</tr>
+	</table>
+	<input name="Subscribe" type="hidden" value="1" checked ID="Hidden1">
+	<input name="ListID" type="hidden" value="$$ListID$$" ID="Hidden2">
+</form>

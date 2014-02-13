@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="footer.ascx.cs" Inherits="ascx_footer" %>
+ <a href="http://www.i386.com/newsletter">Version:0.3 Newsletter by i386.com &copy; Reserved.</a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin%40i386%2eat&item_name=Newsletter&no_shipping=0&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8">Donate</a>
